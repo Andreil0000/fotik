@@ -2,8 +2,8 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
   font-family: 'Playfair Display', serif;
   background: #242424;
+  overflow-x: hidden;
 }
-
 h1,
 h2,
 h3,
@@ -37,6 +37,7 @@ h6 {
 .container {
   max-width: 1160px;
   margin: 0 auto;
+  
 }
 
 .header {
@@ -146,7 +147,6 @@ li.social-icon:hover {
   height: 1034px;
   position: absolute;
   z-index: 0;
-  object-fit: fill;
 }
 
 section {
