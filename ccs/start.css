@@ -15,7 +15,20 @@ h6 {
   font-weight: 700;
   line-height: 1.4em;
 }
-
+.header-cryg {
+  display: block;
+  background-image: url(../img/header-cryg.png);
+  left: -101px;
+  top: 0px;
+  width: 599px;
+  height: 634px;
+  position: absolute;
+  z-index: 0;
+  object-fit: fill;
+  position: absolute;
+    z-index:-1;
+    object-fit: fill;
+}
 .header {
   padding-top: 44px;
   padding-bottom: 36px;
@@ -125,13 +138,14 @@ li.social-icon:hover {
 }
 
 .crug1 {
+  display: block;
+  background-image: url(../img/blyr.png);
+  left: 630px;
+  top: 687px;
+  width: 633px;
+  height: 1034px;
   position: absolute;
   z-index: 0;
-  width: 70vw;
-  height: 70vw;
-  margin: 506px 595px;
-  border-radius: 100%;
-  background: linear-gradient(180deg, #0B3558 0%, #0B3558 100%);
   object-fit: fill;
 }
 
@@ -141,12 +155,13 @@ section {
 
 .wrapper {
   display: flex;
-  gap: 211px;
+  gap: 90px;
 }
 
 .foto {
   display: block;
   max-width: 100%;
+  height: 880px;
   margin-top: 100px;
   margin-top: -115px;
   object-fit: fill;
@@ -168,7 +183,9 @@ section {
   width: 100%;
 
 }
-
+ .offer{
+margin-left: -16px;
+ }
 .text2 {
   color: #FFF;
   font-family: Montserrat;
@@ -205,9 +222,8 @@ section {
   position: absolute;
   z-index: 0;
   margin-left: 700px;
-  margin-top: -145px;
+  margin-top: -556px;
 }
-
 .row_title {
   color: #D0A68C;
   font-family: Playfair Display;
@@ -229,7 +245,6 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-
 .row_text2 {
   color: #FFF;
   font-family: Montserrat;
@@ -238,4 +253,17 @@ section {
   font-weight: 400;
   line-height: 160%;
   width: 75%;
+}
+.byss{
+  margin-top: 300px;
+
+}
+.bribg{
+  width: 67%;
+  height: 120px;
+}
+.fiit {
+  display: block;
+  max-width: 550px;
+  margin-top: -70px;
 }
