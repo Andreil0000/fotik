@@ -334,6 +334,8 @@ section {
   width: 567px;
   height: 467px;
   padding-top: 40px;
+  border: 4px solid #D0A68C;
+  
 }
 
 .main2 {
@@ -341,6 +343,7 @@ section {
   width: 567px;
   height: 467px;
   padding-top: 40px;
+  border: 4px solid #D0A68C;
 }
 
 .main3 {
@@ -348,6 +351,7 @@ section {
   width: 567px;
   height: 467px;
   padding-top: 40px;
+  border: 4px solid #D0A68C;
 }
 
 .main4 {
@@ -355,6 +359,7 @@ section {
   width: 567px;
   height: 467px;
   padding-top: 40px;
+  border: 4px solid #D0A68C;
 }
 
 .main-text {
@@ -556,7 +561,7 @@ li.footer-icon:hover {
 }
 
 /* Rechonser */
-
+  /* DECTON */
 @media (max-width: 1260px) {
   .blyr {
     width: 48%;
@@ -580,8 +585,10 @@ li.footer-icon:hover {
 }
 .blyr {
   left: 52%;
+  padding: 12% 0% 0% 8%;
 }
 .main1,.main2,.main3,.main4{
+  
   width: 100%;
   height: 467px;
 }
@@ -589,9 +596,139 @@ li.footer-icon:hover {
   transform: translate(100%, -149px);
   width: 50%;
 }
-
 .foto {
   height: 600px;
-  margin-top: -68px;
+  margin-top: 9px;
+}
+.header-item {
+  margin-left: 20px;
+}
+.header-nav {
+  gap: 30px;
+}
+.img_aside {
+ width: 50%;
+}
+}
+@media (max-width: 1050px) {
+  .header-nav  {
+    padding-left: 471px;
+  }
+  .header-nav a {
+    font-size: 18px;
+}
+.header-logo {
+  width: 34px;
+  height: 34px;
+  margin-bottom:0px;
+}
+}
+/* ainad mini */
+@media (max-width: 1000px) {
+  .container{
+    max-width: 720px;
+  }
+  .header-nav {
+    padding-left: 197px;
+}
+.wrapper {
+  gap: 0px;
+}
+.offer {
+  width: 50%;
+  margin-top: -24px;
+  margin-left: -16px;
+}
+.text2 {
+  width: 308px;
+}
+.foto {
+  height: 600px;
+  width: 50%;
+  margin-top: 22px;
+}
+.row_text2 {
+  display: none;
+}
+.row_text {
+  display: none;
+}
+.row_text1{
+  display: none;
+}
+.row_title {
+display: none;
+}
+.fiit {
+  position: absolute;
+  z-index:1;
+  margin: 0 auto;
+  max-width: 100%;
+  transform: translate(14%,491px);
+}
+.byss {
+  
+  transform: translate(1%,571px);
+}
+.blyr {
+  left: 35%;
+  padding: 12% 0% 0% 8%;
+  width: 70%;
+  bottom: -95%;
+}
+.about {
+  padding-top: 774px;
+}
+.main1 {
+  background-image: url(../img/ipad1.png);
+  height: 300px;
+}
+.main2 {
+  background-image: url(../img/ipad2.png);
+  height: 300px;
+}
+.main3 {
+  background-image: url(../img/ipad3.png);
+  height: 300px;
+}
+.main4 {
+  background-image: url(../img/ipad4.png);
+  height: 300px;
+}
+.artical-title {
+  font-size: 60px;
+  margin-bottom: -11px;
+}
+.main_grid {
+  gap: 15px 8px;
+  margin-top: -100px;
+}
+.main_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.forwa {
+  margin-top: 3px;
+  width: 65%;
+  margin-left: 113px;
+}
+.bg{
+ margin: 0 auto;
+}
+.img_aside {
+  width: 79%;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  gap: 20px;
+  padding-top: 21px;
+  width: 130%;
+  margin-left:-157px;
+}
+.flex_banner {
+gap: 150px;
+margin-right: 30px;
 }
 }
