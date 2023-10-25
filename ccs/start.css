@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
   font-family: 'Playfair Display', serif;
   background: #242424;
-  /* overflow-x: hidden; */
+   overflow-x: hidden; 
 
 }
 
@@ -470,13 +470,12 @@ width: 100%;
 
 /* <!-- aside --> */
 .aside {
-  padding-top: 0px;
+  padding-top: 52px;
 }
 
 .flex_banner {
   display: flex;
   justify-content: space-around;
-  padding-right: 50px;
 }
 
 .mak1,
@@ -499,8 +498,7 @@ width: 100%;
 .banner_box {
   border-radius: 30px;
   background: #4A4A4A;
-  padding: 0px 28px 10px;
-  width: 31%;
+  padding: 0px 28px 65px;
 }
 
 .banner_title {
@@ -617,19 +615,21 @@ li.footer-icon:hover {
   .header-nav a {
     font-size: 18px;
 }
-.header-logo {
-  width: 34px;
-  height: 34px;
-  margin-bottom:0px;
+.banner {
+  width: 100%;
 }
 }
 /* ainad mini */
 @media (max-width: 1000px) {
   .container{
     max-width: 720px;
+    padding: 0px 8px;
   }
   .header-nav {
     padding-left: 197px;
+}
+.header-nav a {
+  font-size: 16px;
 }
 .wrapper {
   gap: 0px;
@@ -667,7 +667,6 @@ display: none;
   transform: translate(14%,491px);
 }
 .byss {
-  
   transform: translate(1%,571px);
 }
 .blyr {
@@ -720,15 +719,85 @@ display: none;
   width: 79%;
   margin: 0 auto;
 }
+.menu-flex{
+  overflow: hidden; 
+  height: 672px;
+  flex: 0 0 281px;
+  overflow-x:scroll;
+  overflow-y: hidden;
+}
 .banner {
-  display: flex;
   gap: 20px;
   padding-top: 21px;
-  width: 130%;
-  margin-left:-157px;
+  margin-left:0px;
+  width: 120%;
+}
+.banner_box {
+  border-radius: 30px;
+  background: #4A4A4A;
+  padding: 0px 30px 0px;
 }
 .flex_banner {
-gap: 150px;
-margin-right: 30px;
+  gap: 179px;
+  padding-left: 120px;
+}
+footer{
+padding-top: 0px;
+}
+.main_flex {
+  width: 100%;
+}
+.flex_title {
+width: 320px;
+display: block;
+margin: 0 auto;
+}
+.flex_title {
+padding-bottom: 52px;
 }
 }
+@media (max-width: 770px) {
+  .blyr{
+    left: 28%;
+  }
+  .header-nav {
+    gap: 21px;
+    padding-left: 165px;
+}
+}
+@media (max-width: 700px) {
+  .fiit {
+    max-width: 82%;
+}
+}
+@media (max-width: 690px) {
+  .header-nav {
+    gap: 14px;
+    padding-left: 145px;
+  }
+}
+ @media (max-width: 650px) {
+  .header-nav {
+    padding-left: 93px;
+}
+.blyr {
+  bottom: -89%;
+}
+.offer {
+  width: 52%;
+}
+.foto {
+  height: 565px;
+}
+.banner {
+  width: 160%;
+}
+.mak1, .mak2, .mak3 {
+  width: 160px;
+  height: 160px;
+}
+.flex_banner {
+  gap: 154px;
+  padding-left: 321px;
+}
+} 
