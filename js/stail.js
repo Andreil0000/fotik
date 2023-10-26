@@ -1,7 +1,7 @@
 // Menu
 
 function openModal() {
-   document.getElementById("modal").style.top = "0px";
+   document.getElementById("modal").style.top = "-20px";
 }
 
 function closeModal() {
