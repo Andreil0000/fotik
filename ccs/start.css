@@ -425,23 +425,25 @@ width: 100%;
 
 .form-wrap {
   display: block;
- border-radius: 30px;
+  border-radius: 30px;
+  
   width: 100%;
 }
 .form-email{
   color: #D0A68C;
+  border-radius: 30px;
+border: 2px solid #004857;
+background: #242424;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
-  background-color: #004857;
   padding: 17px 52px;
 width: 100%;
 border-radius: 30px;
 }
-
 .flex_title {
   text-align: center;
   font-size: 72px;
