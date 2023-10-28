@@ -196,7 +196,7 @@ section {
   width: 450px;
   line-height: 170%;
   padding-bottom: 13px;
-  width: 400px;
+  width: 320px;
 }
 
 .Button {
@@ -419,14 +419,13 @@ section {
   flex-direction: column;
   gap: 26px;
   margin-top: 134px;
-width: 100%;
+width: 470px;
 }
 
 .form-wrap {
   display: block;
   border-radius: 30px;
-  
-  width: 100%;
+  width: 470px;
 }
 .form-email{
   color: #D0A68C;
@@ -577,11 +576,11 @@ li.footer-icon:hover {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin-right: 204px;;
+
 }
 
 #modal {
-  max-width: 587px;
+  max-width: 100%;
   height: 331px;
   background: linear-gradient(180deg, rgba(36, 36, 36, 0.70) 27.4%, rgba(36, 36, 36, 0.43) 113.58%);
   position: absolute;
@@ -629,7 +628,7 @@ li.footer-icon:hover {
   position: absolute;
   display: flex;
   gap: 20px;
-  padding-left: 80px;
+  padding-left: 100px;
 }
 /* Rechonser */
   /* DECTON */
@@ -725,9 +724,6 @@ li.footer-icon:hover {
   margin-top: -24px;
   margin-left: -16px;
 }
-.text2 {
-  width: 308px;
-}
 .foto {
   height: 630px;
   width: 50%;
@@ -759,7 +755,7 @@ display: none;
   left: 35%;
   padding: 12% 0% 0% 8%;
   width: 70%;
-  bottom: -95%;
+  bottom: -90%;
 }
 .about {
   padding-top: 774px;
@@ -797,8 +793,20 @@ display: none;
   flex-direction: column;
   gap: 57px;
 }
+.forwa {
+  margin-top: 0px;
+}
+.form-wrap {
+  display: block;
+  margin-left: 156px;
+}
+.form-email {
+  font-size: 16px;
+  padding: 17px 26px;
+  width: 80%;
+}
 .bg{
- margin: 0 auto;
+  margin-left: 250px;
  margin-top: 16px;
 }
 .img_aside {
@@ -863,7 +871,7 @@ padding-bottom: 52px;
   line-height: normal;
   width: 100%;
   margin:  0 auto;
-  padding-bottom: 37px;
+  padding-bottom: 5px;
  }
  .hero_text1{
   display: block;
@@ -876,7 +884,7 @@ padding-bottom: 52px;
   text-transform: uppercase;
   width: 100%;
   margin:  0 auto;
-  padding-bottom: 28px;
+  padding-bottom: 5px;
  }
  .hero_text2 {
   display: block;
@@ -898,7 +906,7 @@ line-height: 140%;
     padding-left: 165px;
 }
 }
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .fiit {
     max-width: 82%;
 }
@@ -910,17 +918,33 @@ line-height: 140%;
   width: 30px;
   height: 26px;
 }
+.forwa {
+max-width: 100%;
+}
+.form-wrap {
+  max-width: 100%;
+  margin-left: 100px;
+}
+.form-email {
+  width: 80%;
+}
+.bg {
+ margin-left: 200px;
+  margin-top: 16px;
+}
 }
 @media (max-width: 690px) {
-  .header-nav {
-    gap: 14px;
-    padding-left: 145px;
+  .header-burger {
+    display: block;
+    max-width: 40px;
+    margin-top: 20px;
+    padding-left: 300px;
   }
+  .header-nav {
+    display: none;
+ }
 }
  @media (max-width: 650px) {
-  .header-nav {
-    padding-left: 72px;
-}
 .blyr {
   bottom: -89%;
 }
@@ -933,25 +957,28 @@ line-height: 140%;
 .banner {
   width: 160%;
 }
-
 } 
 /* mobal */
 @media (max-width: 590px) {
-  .header-nav {
-   display: none;
-}
 .container{
   max-width: 360px;
 }
+.header-burger {
+  padding-left: 143px;
+}
+.forwa {
+  margin-top: 7px;
+  width: 100%;
+  margin-left: -120px;
+}
+.bg {
+  margin-left: 166px;
+  margin-top: 16px;
+}
 .form-email {
+  width: 100%;
   font-size: 13.50px;
   padding: 17px 18px;
-}
-.header-burger {
-  display: block;
-  max-width: 40px;
-  margin-top: 20px;
-  padding-left: 92px;
 }
 li.social-icon {
   width: 25px;
@@ -971,6 +998,9 @@ li.social-icon {
 }
 .text1 {
   width: 70%;
+}
+.text2 {
+  width: 308px;
 }
 .foto {
   height: 630px;
@@ -1062,11 +1092,6 @@ padding-bottom: 48px;
   padding-top: 87px;
   margin-left: -18px;
 }
-.forwa {
-  margin-top: 7px;
-  width: 100%;
-  margin-left: -16px;
-}
 .flex_banner {
   padding-left: 516px;
 }
@@ -1078,9 +1103,6 @@ width: 80%;
 }
 }
 @media (max-width: 580px) {
-  .burger {
-    margin-right: -3px;
-}
 .hero_title {
   width: 70%;
 }
@@ -1137,18 +1159,17 @@ display: none;
 .row_title {
 display: block;
 font-size: 50px;
-width: 203px;
 }
 .row_text1 {
   display: block;
+  font-size: 14px;
+  width: 160px;
 }
 .row_text2 {
   display: block;
-  width: 85%;
+width: 320px;
   font-size: 14px;
-}
-.text2 {
-  width: 282px;
+  margin-left: -30px;
 }
 .byss {
   transform: translate(-3%,1164px);
@@ -1188,11 +1209,25 @@ width: 203px;
   margin-left: 0px;
   margin-top: 0px;
 }
+.form-wrap {
+  max-width: 100%;
+  margin-left: 0px;
+}
+.bg {
+  margin-left: 70px;
+}
 .flex_title {
   font-size: 52px;
 }
 .footer_icon {
   gap: 25px;
 }
-
 }
+@media (max-width: 430px) {
+  .header-burger{
+padding-left: 90px;
+  }
+}
+
+
+
